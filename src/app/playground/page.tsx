@@ -460,6 +460,27 @@ export default function MotionPlayground() {
             {codeSnippet}
           </SyntaxHighlighter>
         </div>
+      <footer className="w-full text-center text-sm text-muted-foreground mt-12">
+  Built by{" "}
+  <a
+    href="https://edbelluti.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-foreground transition-colors"
+  >
+    Eduardo Belluti
+  </a>{" "}
+  ·{" "}
+  <a
+    href="https://github.com/edbr/fmplay"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-foreground transition-colors"
+  >
+    Source on GitHub
+  </a>
+</footer>
+
       </div>
     </main>
   );
